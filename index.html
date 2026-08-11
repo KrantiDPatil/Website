@@ -3,6 +3,8 @@
 <head>
     <title>HOME</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="ITR_Project_CSS.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,34 +16,84 @@
 <body>
 <!------------------------------Header-------------------------------->
 
-    <div class="navbar">
-        <div class="top">
-            <div class="icon">
-                <div class="logo">
-                    <img src="C:\Users\KrantiPatil\OneDrive\Desktop\Project\main_logo_2.png" alt="" width="100px" height="90px">                  
-                </div>
-                <div class="logo_name">
-                    <h2>Government <br>Polytechnic Pen</h2>
-                </div>
-    <!--     <div class="search">                  
-                    <input type="text" placeholder="Search courses...">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>         ---->     
-            </div>            
-        </div>    
-        <br>
-        <div class="menu">
-            <ul>
-                <li><a href="#home">HOME</a></li>                
-                <li><a href="#course">COURSES</a></li>
-                <li><a href="#gallery">GALLERY</a></li>
-                <li><a href="ABOUTUS_page.html">ABOUT</a></li>
-                <li><a href="CONTACTUS_page.html">CONTACT</a></li>
-                <li><a href="APPLY_BUTTON.html">ADMISSION</a></li>
-            </ul>
+<!------------------------------Header-------------------------------->
+
+<div class="navbar">
+
+    <!-- LOGO / COLLEGE NAME -->
+    <div class="top">
+
+        <div class="icon">
+
+            <div class="logo">
+                <img src="C:\Users\KrantiPatil\OneDrive\Desktop\Project\main_logo_2.png"
+                     alt=""
+                     width="100px"
+                     height="90px">
+            </div>
+
+            <div class="logo_name">
+                <h2>Government <br>Polytechnic Pen</h2>
+            </div>
+
         </div>
-        
+
     </div>
+
+
+    <!-- MOBILE MENU CHECKBOX -->
+    <input type="checkbox"
+           id="mobile-menu-toggle"
+           class="mobile-menu-checkbox">
+
+
+    <!-- THREE LINE MENU BUTTON -->
+    <label for="mobile-menu-toggle"
+           class="mobile-menu-icon">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </label>
+
+
+    <!-- NAVIGATION -->
+    <div class="menu">
+
+        <ul>
+
+            <li>
+                <a href="#home">HOME</a>
+            </li>
+
+            <li>
+                <a href="#course">COURSES</a>
+            </li>
+
+            <li>
+                <a href="#gallery">GALLERY</a>
+            </li>
+
+            <li>
+                <a href="ABOUTUS_page.html">ABOUT</a>
+            </li>
+
+            <li>
+                <a href="CONTACTUS_page.html">CONTACT</a>
+            </li>
+
+            <li>
+                <a href="APPLY_BUTTON.html">ADMISSION</a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+<!---------------------------------------------------------------------->
 <!---------------------------------------------------------------------->
 
 
@@ -73,6 +125,7 @@
                 student-friendly learning environment.</p><br>
                 <button class="apply"><a href="APPLY_BUTTON.html">APPLY NOW</a></button>
             </div>
+            
 
             <div class="homeimg_container">
             <div class="homeA">
@@ -102,7 +155,13 @@
             </div>   <!--homeimg closing-->
             </div>   <!--homeB closing-->
             </div>   <!--homeA closing-->
-            </div>   <!--homeimg_container closing-->           
+            </div>   <!--homeimg_container closing-->    
+            <div class="mobilehome-text"><br>                
+                <h1>Welcome to <br><span>Government Polytechnic Pen</span></h1><br>
+                <p class="par">Government Polytechnic Pen is committed to providing quality technical education
+                and developing skilled professionals for the future.</p><br>
+                <button class="apply"><a href="APPLY_BUTTON.html">APPLY NOW</a></button>
+            </div>       
         </div>
     </div>
 
@@ -129,31 +188,41 @@
                     every student's true potential. Together, let us build a future driven by knowledge, innovation, integrity, 
                     and a commitment to serving society.
                 </p>
-                </div>               
+                </div>
+
+                <div class="mobile-text">
+                    <p>Welcome to <b><i>Government Polytechnic Pen! </i></b>In an era of rapid technological advancement and global connectivity, 
+                    the nature of learning is constantly evolving. Our goal at Government Polytechnic Pen is to foster a culture 
+                    of curiosity, critical thinking, and lifelong learning.
+                    <a href="ABOUTUS_page.html #Principal's message">read more</a>
+                </p>
+                </div>   
+                
+                
             </div>
         </div>
         <div class="quicklinks">
             <div class="quick">
             <br>
             <h3>Quick links</h3>
-            <br>
+            <br><br>
             <div class="link">
                 <a href="https://msbte.ac.in/" class="msbte">
-                    <img src="msbte_link.png" alt="msbte" width="90px" height="90px">
+                    <img src="msbte_link.png" alt="msbte" width="90px" height="90px"><br>
                     https://msbte.ac.in/
                 </a>
             </div>
             <br><br>
             <div class="link2">
                 <a href="https://ugpg26.dtemaharashtra.gov.in/">
-                    <img src="dte_link3.png" alt="dte" width="90px" height="90px">
+                    <img src="dte_link3.png" alt="dte" width="90px" height="90px"><br>
                     dte.maharashtra.gov.in
                 </a>
             </div>
             <br><br>
             <div class="link">
                 <a href="https://aicte.gov.in/">
-                    <img src="aicte_link.png" alt="AICTE" width="90px" height="90px">
+                    <img src="aicte_link.png" alt="AICTE" width="90px" height="90px"><br>
                     https://aicte.gov.in/
                 </a>
             </div>
@@ -266,7 +335,7 @@
 <!------------------------------------footer--------------------------------->
 
     <div class="footer">
-        <div class="footer-logo">
+        <!--<div class="footer-logo">
             <img src="main_logo_2.png" alt="" width="220px" height="220px">  
         </div>
 
@@ -278,6 +347,8 @@
                 Board of Technical Education, Mumbai. <br>The college offers  Post 
                 SSC Diploma programs in <br>Engineering and hasa total intake of 
                 260 students.</p>
+
+                -->
         
                 <ul class="footer-icons">            
                 <li><i class="fa-brands fa-facebook"></i></li>
@@ -323,6 +394,555 @@
         </div>
 
     </div>
+
+
+
+    
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const cards = document.querySelectorAll(
+        ".course-col, .link, .link2"
+    );
+
+
+    function updateAnimations() {
+
+        cards.forEach(function (card) {
+
+            const rect = card.getBoundingClientRect();
+
+            const windowHeight = window.innerHeight;
+
+
+            /*
+             * Animation starts when the element
+             * enters the lower part of the screen.
+             */
+            const start = windowHeight * 0.90;
+
+
+            /*
+             * Animation becomes complete
+             * when the element reaches this position.
+             */
+            const end = windowHeight * 0.50;
+
+
+            /*
+             * Calculate animation progress.
+             */
+            let progress =
+                (start - rect.top) /
+                (start - end);
+
+
+            /*
+             * Keep progress between 0 and 1.
+             */
+            progress = Math.max(
+                0,
+                Math.min(1, progress)
+            );
+
+
+            /*
+             * Create the animation only once.
+             */
+            if (!card._mobileAnimation) {
+
+                card._mobileAnimation =
+                    card.animate(
+                        [
+                            {
+                                opacity: 0.5,
+
+                                transform:
+                                    "perspective(2000px) " +
+                                    "rotateY(15deg) " +
+                                    "rotateX(15deg) " +
+                                    "translateX(60px) " +
+                                    "translateY(120px) " +
+                                    "scale(1)",
+
+                                filter: "blur(4px)"
+                            },
+
+                            {
+                                opacity: 1,
+
+                                transform:
+                                    "perspective(2000px) " +
+                                    "rotateY(0deg) " +
+                                    "rotateX(0deg) " +
+                                    "translateY(0) " +
+                                    "scale(1.1)",
+
+                                filter: "blur(0)"
+                            }
+                        ],
+                        {
+                            duration: 1000,
+                            easing: "linear",
+                            fill: "both"
+                        }
+                    );
+
+            }
+
+
+            /*
+             * Connect animation progress
+             * to the element's position.
+             */
+            card._mobileAnimation.currentTime =
+                progress * 1000;
+
+        });
+
+
+        requestAnimationFrame(updateAnimations);
+
+    }
+
+
+    updateAnimations();
+
+});
+
+/* =========================================================
+   MOBILE GALLERY - INFINITE AUTO + MANUAL CAROUSEL
+   ========================================================= */
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    if (window.innerWidth > 768) {
+        return;
+    }
+
+
+    const gallery =
+        document.querySelector(".gallery");
+
+    const row1 =
+        document.querySelector(".galrow1");
+
+    const row2 =
+        document.querySelector(".galrow2");
+
+
+    if (!gallery || !row1 || !row2) {
+        return;
+    }
+
+
+    const originalCards = [
+        ...row1.querySelectorAll(".gal-col"),
+        ...row2.querySelectorAll(".gal-col")
+    ];
+
+
+    if (originalCards.length === 0) {
+        return;
+    }
+
+
+    /* =====================================================
+       CREATE CAROUSEL
+       ===================================================== */
+
+    const wrapper =
+        document.createElement("div");
+
+    wrapper.className =
+        "mobile-gallery-wrapper";
+
+
+    const windowBox =
+        document.createElement("div");
+
+    windowBox.className =
+        "mobile-gallery-window";
+
+
+    const track =
+        document.createElement("div");
+
+    track.className =
+        "mobile-gallery-track";
+
+
+    /* Add original cards */
+
+    originalCards.forEach(function (card) {
+
+        const newCard =
+            document.createElement("div");
+
+        newCard.className =
+            "mobile-gallery-card";
+
+        newCard.innerHTML =
+            card.innerHTML;
+
+        track.appendChild(newCard);
+
+    });
+
+
+    /* Add clones for infinite scrolling */
+
+    originalCards.forEach(function (card) {
+
+        const clone =
+            document.createElement("div");
+
+        clone.className =
+            "mobile-gallery-card";
+
+        clone.innerHTML =
+            card.innerHTML;
+
+        track.appendChild(clone);
+
+    });
+
+
+    windowBox.appendChild(track);
+
+    wrapper.appendChild(windowBox);
+
+
+    /* =====================================================
+       BUTTONS
+       ===================================================== */
+
+    const leftButton =
+        document.createElement("button");
+
+    leftButton.className =
+        "gallery-arrow gallery-arrow-left";
+
+    leftButton.innerHTML =
+        "&#10094;";
+
+
+    const rightButton =
+        document.createElement("button");
+
+    rightButton.className =
+        "gallery-arrow gallery-arrow-right";
+
+    rightButton.innerHTML =
+        "&#10095;";
+
+
+    wrapper.appendChild(leftButton);
+
+    wrapper.appendChild(rightButton);
+
+
+    gallery.appendChild(wrapper);
+
+
+    /* =====================================================
+       DOTS
+       ===================================================== */
+
+    const dots =
+        document.createElement("div");
+
+    dots.className =
+        "gallery-dots";
+
+
+    originalCards.forEach(function () {
+
+        const dot =
+            document.createElement("span");
+
+        dot.className =
+            "gallery-dot";
+
+        dots.appendChild(dot);
+
+    });
+
+
+    gallery.appendChild(dots);
+
+
+    const dotElements =
+        dots.querySelectorAll(".gallery-dot");
+
+
+    /* =====================================================
+       SETTINGS
+       ===================================================== */
+
+    let currentIndex = 0;
+
+    const totalSlides =
+        originalCards.length;
+
+    const cardWidth =
+        window.innerWidth - 50;
+
+
+    /*
+       Change this value if you want.
+
+       4000 = 4 seconds
+       3000 = 3 seconds
+       5000 = 5 seconds
+    */
+
+    const AUTO_DELAY = 4000;
+
+    let autoTimer;
+
+
+    /* =====================================================
+       UPDATE CAROUSEL
+       ===================================================== */
+
+    function updateCarousel(animate = true) {
+
+        if (!animate) {
+
+            track.style.transition = "none";
+
+        } else {
+
+            track.style.transition =
+                "transform 0.55s ease";
+        }
+
+
+        track.style.transform =
+            "translateX(-" +
+            (currentIndex * cardWidth) +
+            "px)";
+
+
+        const realIndex =
+            currentIndex % totalSlides;
+
+
+        dotElements.forEach(function (dot, index) {
+
+            dot.classList.toggle(
+                "active",
+                index === realIndex
+            );
+
+        });
+
+    }
+
+
+    /* =====================================================
+       NEXT SLIDE
+       ===================================================== */
+
+    function nextSlide() {
+
+        currentIndex++;
+
+        updateCarousel(true);
+
+    }
+
+
+    /* =====================================================
+       PREVIOUS SLIDE
+       ===================================================== */
+
+    function previousSlide() {
+
+        if (currentIndex === 0) {
+
+            currentIndex =
+                totalSlides;
+
+            updateCarousel(false);
+
+
+            requestAnimationFrame(function () {
+
+                currentIndex--;
+
+                updateCarousel(true);
+
+            });
+
+        } else {
+
+            currentIndex--;
+
+            updateCarousel(true);
+
+        }
+
+    }
+
+
+    /* =====================================================
+       AUTOMATIC SCROLL
+       ===================================================== */
+
+    function startAutoScroll() {
+
+        clearInterval(autoTimer);
+
+        autoTimer =
+            setInterval(function () {
+
+                nextSlide();
+
+            }, AUTO_DELAY);
+
+    }
+
+
+    /*
+       Temporarily pause automatic scrolling
+       when the user interacts.
+    */
+
+    function userInteraction() {
+
+        clearInterval(autoTimer);
+
+        startAutoScroll();
+
+    }
+
+
+    /* =====================================================
+       RIGHT BUTTON
+       ===================================================== */
+
+    rightButton.addEventListener(
+        "click",
+        function () {
+
+            nextSlide();
+
+            userInteraction();
+
+        }
+    );
+
+
+    /* =====================================================
+       LEFT BUTTON
+       ===================================================== */
+
+    leftButton.addEventListener(
+        "click",
+        function () {
+
+            previousSlide();
+
+            userInteraction();
+
+        }
+    );
+
+
+    /* =====================================================
+       INFINITE LOOP
+       ===================================================== */
+
+    track.addEventListener(
+        "transitionend",
+        function () {
+
+            if (currentIndex >= totalSlides) {
+
+                currentIndex = 0;
+
+                updateCarousel(false);
+
+            }
+
+        }
+    );
+
+
+    /* =====================================================
+       TOUCH / SWIPE
+       ===================================================== */
+
+    let touchStartX = 0;
+
+    let touchEndX = 0;
+
+
+    wrapper.addEventListener(
+        "touchstart",
+        function (event) {
+
+            touchStartX =
+                event.changedTouches[0].screenX;
+
+            clearInterval(autoTimer);
+
+        },
+        { passive: true }
+    );
+
+
+    wrapper.addEventListener(
+        "touchend",
+        function (event) {
+
+            touchEndX =
+                event.changedTouches[0].screenX;
+
+
+            const difference =
+                touchStartX - touchEndX;
+
+
+            if (difference > 50) {
+
+                nextSlide();
+
+            }
+            else if (difference < -50) {
+
+                previousSlide();
+
+            }
+
+
+            startAutoScroll();
+
+        },
+        { passive: true }
+    );
+
+
+    /* =====================================================
+       START
+       ===================================================== */
+
+    updateCarousel(false);
+
+    startAutoScroll();
+
+});
+
+</script>
+
+
+
+
+
 <!---------------------------------------------------------------------->
 <!---
 <div class="footer2">
