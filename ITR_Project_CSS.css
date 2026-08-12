@@ -935,12 +935,14 @@ iframe{
     height: 170px;
     background-color:#1a2754;
     color: #e2f2fa;
+    margin-top: 10px;
 }
 
 .aboutheader h1{
     font-size: 50px;
     padding-top: 50px;
     padding-left: 50px;
+    
 
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
@@ -1177,9 +1179,10 @@ iframe{
 
 
 
-
 /*---------------------------------------footer---------------------------------------------*/
 
+
+/*
 .footer{
     width: 100%;
     height: auto;
@@ -1264,13 +1267,111 @@ iframe{
     margin-top: -7px;
 }
 
+*/
+
+.footer-space{
+    height: 20px;
+    background-color: #bae0f8;
+    margin-top: 50px;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #151f42;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.footer-space{
+    height: 20px;
+    background-color: #bae0f8;
+
+}
+
+.footer-text{
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    text-align: center;
+}
+.footer-text p{
+    color: #c2c7d5;
+    font-size: 14.5px;
+    letter-spacing: 1.3px;
+    line-height: 25px;
+}
+.footer-text h1{
+    color: #e6f3ff;
+    margin-top: 10px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+
+.footer-quicklinks{
+    width: 100%;
+    text-align: center;
+    margin-top: -12px;
+}
+.footer-quicklinks a{
+    color: #c2c7d5;
+    margin: 4px;
+    font-size: 14.5px;
+    text-decoration: none;
+}
+
+.icons{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.icons i{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.footer2{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    background-color: #98b7cf;
+    position: fixed;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+    color: #424040;
+}
+
+.footer2-space{
+    height: 5px;
+    background-color: rgb(194, 217, 234);
+}
+
+.footer2 p{
+    margin-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*-------------------------------------CONTACT US PAGE-----------------------------------------*/
 
 .map{
     width:75%;
     margin-top:70px;
-    margin-left: 200px;
+    margin-left: 190px;
     border-radius: 20px;
 }
 
@@ -1286,6 +1387,7 @@ iframe{
 
     justify-content:space-between;
     align-items:flex-start;
+    text-align: center;
 
     gap:70px;
 }
@@ -1296,10 +1398,23 @@ iframe{
     margin-left: 350px;
 }
 
-.info-box{
+.info-box1{
     align-items:center;
     margin-bottom:40px;
-    margin: 60px;
+    margin: 40px;
+}
+
+.info-box2{
+    align-items:center;
+    margin-bottom:40px;
+    margin: 40px;
+}
+
+.info-box3{
+    align-items:center;
+    margin-bottom:40px;
+    margin: 40px;
+    margin-left: 55px;
 }
 
 .contact-icon{
@@ -1318,8 +1433,14 @@ iframe{
     font-size:28px;
 
     margin-right:50px;
+    margin-left: 50px;
 
     box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+
+.info-box1 .contact-icon{
+    margin-left: 65px;
 }
 
 .text h3{
@@ -1397,12 +1518,25 @@ iframe{
 
 
 
+.principal-desk1{
+    display: none;
+}
 
 
 
+.principal1{
+    display: none;
+}
 
 
 
+.quicklinks1{
+    display: none;
+}
+
+.mobile-gallerytext{
+    display: none;
+}
 
 
 
@@ -1473,11 +1607,12 @@ iframe{
         padding: 0 12px !important;
         position: sticky !important;
         position: fixed !important;
-        top: 5px !important;
+        top: 8px !important;
         display: flex !important;
         align-items: center !important;
         justify-content: space-between !important;
         background: #bae0f8 !important;
+        border: 3px solid #d0e8f9;
         box-shadow: 0 3px 10px rgba(0,0,0,0.25) !important;
         z-index: 9999 !important;
     }
@@ -1537,8 +1672,8 @@ iframe{
         margin: 0 !important;
         padding: 0 !important;
         font-family: 'Times New Roman', serif !important;
-        font-size: 18px !important;
-        line-height: 22px !important;
+        font-size: 15px !important;
+        line-height: 19px !important;
         color: #1a2754 !important;
         white-space: nowrap !important;
     }
@@ -1599,7 +1734,7 @@ iframe{
         width: 78vw !important;
         max-width: 180px !important;
 
-        height: calc(62vh - 68px) !important;
+        height: calc(72vh - 68px) !important;
 
         margin: 0 !important;
         padding: 28px 18px !important;
@@ -1734,7 +1869,7 @@ iframe{
         margin: 0 !important;
         padding: 10px 10px 0 10px !important;
 
-        margin-top: 70px !important;
+        margin-top: 80px !important;
 
         overflow: hidden !important;
     }
@@ -1869,7 +2004,7 @@ iframe{
 
         padding: 0 !important;
 
-        font-size: 20px !important;
+        font-size: 17px !important;
 
         line-height: 1.2 !important;
 
@@ -1878,7 +2013,7 @@ iframe{
 
 
     .content span {
-        font-size: 25px !important;
+        font-size: 22px !important;
         letter-spacing: 0.2px;
         line-height: 1.15 !important;
     }
@@ -1957,7 +2092,7 @@ iframe{
                     4. PRINCIPAL + QUICK LINKS
        ======================================================== */
 
-    .principal-desk {
+    .principal-desk1 {
         width: 100% !important;
         height: auto !important;
         margin: 0 !important;
@@ -1965,9 +2100,14 @@ iframe{
         display: flex !important;
         flex-direction: column !important;
         gap: 25px !important;
+        display: block;
     }
 
-    .desk {
+    .principal-desk{
+        display: none;
+    }
+
+    .desk1 {
         width: 96% !important;
         height: auto !important;
         margin: 0 !important;
@@ -1976,16 +2116,25 @@ iframe{
         float: none !important;
         display: block !important;
         border-radius: 25px !important;
+        background-color: #b7dff7cc;
     }
 
-    .principal {
+    .desk{
+        display: none;
+    }
+
+    .principal1 {
         width: 100% !important;
         padding: 20px !important;
-        border: 1.5px solid #c6e7fc;
+        border: 3px solid #c6e7fc;
         border-radius: 25px !important;
+        display: block;
+    }
+    .principal{
+        display: none;
     }
 
-    .principal h3 {
+    .principal1 h3 {
         width: 100% !important;
         margin: 0 0 0px 0 !important;
         padding: 0 !important;
@@ -1994,13 +2143,13 @@ iframe{
         font-size: 23px !important;
     }
 
-    .principal .desk-img {
+    .principal1 .desk-img1 {
         width: 100% !important;
         text-align: center !important;
         margin-top: -15px !important;
     }
 
-    .principal .desk-img img {
+    .principal1 .desk-img1 img {
         width: 88% !important;
         max-width: 350px !important;
         height: auto !important;
@@ -2011,11 +2160,11 @@ iframe{
         margin-left: 6% !important;
     }
 
-    .desktext{
+    .desktext1{
         display: none;
     }
 
-    .mobile-text {
+    .mobile-text1 {
         width: 100% !important;
         margin: 0 !important;
         line-height: 20px !important;
@@ -2023,11 +2172,14 @@ iframe{
         text-align: center !important;
         margin-top: -15px !important;
         display: block;
+        display: block;
     }
+
+
 
     /* ---------- Quick links ---------- */
 
-    .quicklinks {
+    .quicklinks1 {
         width: 96% !important;
         height: auto !important;
         margin: 0 !important;
@@ -2042,60 +2194,28 @@ iframe{
         display: flex;
     }
 
-    .quick {
+    .quicklinks{
+        display: none;
+    }
+
+    .quick1 {
         width: 100% !important;
         text-align: center !important;
     }
 
 
-    .quick h3 {
+    .quick1 h3 {
         font-size: 23px !important;
         margin-bottom: 15px !important;
         margin-top: -15px !important;
     }
 
 
-    .link,
-    .link2 {
-        width: 90% !important;
-        max-width: 250px !important;
-
-        height: 105px !important;
-
-        margin: 15px auto !important;
-
-        padding: 5px !important;
-
-        display: flex !important;
-
-        flex-direction: column !important;
-
-        align-items: center !important;
-
-        justify-content: center !important;
-
-        font-size: 12px !important;
-        margin-top: -15px !important;
-        display: flex;
-    }
-
-
-    .link img,
-    .link2 img {
-        width: 65px !important;
-        height: 65px !important;
-
-        padding: 0 !important;
-
-        margin: 0 auto 3px auto !important;
-    }
-
-
-    .link{
+.link1{
     width: 250px !important;
-    height: 100px !important;
-    padding-left: 10px !important;
-    background-color: #b9e7f91e !important;
+    height: 120px !important;
+    padding-left: 0px !important;
+    background-color: #b7dff796 !important;
     align-items: center !important;
     justify-content: center !important;
     border-radius: 12px !important;
@@ -2107,52 +2227,44 @@ iframe{
     box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.3) !important;
 
     animation: projectReveal linear both !important;
-    animation-timeline: view() !important;
-    animation-range: entry 10% cover 40% !important;
+    border: 3px solid #c6e7fc76 !important;
 }
 
-.link img{
+.link1 img{
     margin: auto !important;
     align-items: center !important;
     justify-content: center !important;
-    padding-left: 9px !important;
+    padding-left: 0px !important;
     margin-bottom: -7px !important;
 }
 
 
-.link2{
-    width: 160px;
-    height: 110px;
-    padding-left: 43px;
-    background-color: #b9e7f91e;
-    align-items: center;
-    justify-content: center;
-    border-radius: 12px;
+.LINK2{
+    width: 250px !important;
+    height: 120px !important;
+    padding-left: 0px !important;
+    background-color: #b7dff796 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 12px !important;
 
-    font-size: 14px;
-    padding-bottom: 5px;
+    font-size: 14px !important;
+    padding-bottom: 5px !important;
     padding-top: 5px;
 
-    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.3) !important;
 
-    animation: projectReveal linear both;
-    animation-timeline: view();
-    animation-range: entry 10% cover 40%;
+    animation: projectReveal linear both !important;
+    
 }
 
-.link2 img{
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    padding-left: 11px;
-    margin-bottom: -14px;
+.LINK2 img{
+    margin: auto !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-left: 0px !important;
+    margin-bottom: -15px !important;
 }
-
-
-
-
-
-
 
 
     /* ========================================================
@@ -2160,10 +2272,11 @@ iframe{
        ======================================================== */
 
     .course {
-        width: 94% !important;
+        width: 86% !important;
         height: auto !important;
         margin: 0 !important;
-        margin-left: 3% !important;
+        margin-left: 7% !important;
+        margin-top: 100px;
         padding: 45px 10px 10px 10px !important;
         text-align: center !important;
         margin-top: -50px !important;
@@ -2271,76 +2384,16 @@ iframe{
 
 
 
-
-    /* =========================================================
-   MOBILE COURSE SCROLL ANIMATION
-   ========================================================= */
-/*
-@media screen and (max-width: 768px) {
-
-    .course-col {
-
-        animation: mobileProjectReveal linear both;
-    }
-
-
-    @keyframes mobileProjectReveal {
-
-        from {
-
-            opacity: 0.5;
-
-            transform:
-                perspective(1600px)
-                rotateY(15deg)
-                rotateX(15deg)
-                translateX(60px)
-                translateY(120px)
-                scale(1);
-
-            filter: blur(4px);
-        }
-
-
-        60% {
-
-            transform:
-                perspective(1600px)
-                rotateY(-5deg)
-                scale(0.98);
-
-            filter: blur(0);
-        }
-
-        to {
-
-            opacity: 1;
-
-            transform:
-                perspective(1600px)
-                rotateY(0)
-                rotateX(0)
-                translateY(0)
-                scale(1.1);
-
-            filter: blur(0);
-        }
-
-    }
-
-}
-*/
-
 /* =========================================================
    MOBILE SCROLL ANIMATION
    COURSES + QUICK LINKS
    ========================================================= */
 
-@media screen and (max-width: 768px) {
 
     .course-col,
     .link,
-    .link2 {
+    .link2,
+    .vismis {
         animation: mobileProjectReveal 1s linear both;
     }
 
@@ -2387,7 +2440,7 @@ iframe{
 
     }
 
-}
+
 
 
 
@@ -2398,38 +2451,35 @@ iframe{
 
     .gallery {
         width: 100% !important;
-
         height: auto !important;
-
         margin: 0 !important;
-
         padding: 50px 10px 10px 10px !important;
-
         text-align: center !important;
     }
 
 
     .gallery > h1 {
         font-size: 27px !important;
-
         line-height: 1.2 !important;
     }
 
 
     .gallerytext {
+        display: none;
+    }
+
+    .mobile-gallerytext{
         width: 100% !important;
-
         height: auto !important;
-
-        margin: 15px auto 0 auto !important;
-
+        margin: 0px auto 0 auto !important;
+        margin-bottom: -10px;
         padding: 0 5px !important;
+        display: block;
     }
 
 
-    .gallerytext p {
+    .mobile-gallerytext p {
         font-size: 13px !important;
-
         line-height: 20px !important;
     }
 
@@ -2509,206 +2559,10 @@ iframe{
 
 
 
-    /* ========================================================
-                           7. FOOTER
-       ======================================================== */
-
-    .footer {
-        width: 100% !important;
-
-        height: auto !important;
-
-        margin: 45px 0 0 0 !important;
-
-        padding: 35px 20px !important;
-
-        float: none !important;
-
-        display: flex !important;
-
-        flex-direction: column !important;
-
-        align-items: center !important;
-
-        text-align: center !important;
-    }
-
-
-    .footer-logo {
-        width: 100% !important;
-
-        margin: 0 0 20px 0 !important;
-
-        text-align: center !important;
-    }
-
-
-    .footer-logo img {
-        width: 130px !important;
-        height: 130px !important;
-
-        object-fit: contain !important;
-    }
-
-
-    .about-footer {
-        width: 100% !important;
-
-        max-width: 350px !important;
-
-        padding: 0 !important;
-
-        margin: 0 auto !important;
-    }
-
-
-    .about-footer h1 {
-        margin: 0 0 12px 0 !important;
-
-        font-size: 23px !important;
-    }
-
-
-    .about-footer p {
-        margin: 0 !important;
-
-        font-size: 13px !important;
-
-        line-height: 20px !important;
-    }
-
-
-    .about-footer .footer-icons {
-        margin: 20px 0 0 0 !important;
-
-        padding: 0 !important;
-
-        display: flex !important;
-
-        justify-content: center !important;
-
-        gap: 22px !important;
-    }
-
-
-    .about-footer .footer-icons li {
-        margin: 0 !important;
-
-        padding: 0 !important;
-
-        list-style: none !important;
-    }
-
-
-    .footer-quicklinks {
-        width: 100% !important;
-
-        margin: 30px 0 0 0 !important;
-
-        padding: 0 !important;
-
-        text-align: center !important;
-    }
-
-
-    .footer-quicklinks .list1 {
-        width: 100% !important;
-
-        float: none !important;
-
-        display: block !important;
-    }
-
-
-    .footer-quicklinks ul {
-        margin: 0 !important;
-
-        padding: 0 !important;
-    }
-
-
-    .footer-quicklinks h1 {
-        font-size: 23px !important;
-
-        margin-bottom: 15px !important;
-    }
-
-
-    .footer-quicklinks a {
-        display: block !important;
-
-        margin: 10px 0 !important;
-
-        font-size: 14px !important;
-
-        line-height: 20px !important;
-    }
-
-
-    .footer-contactus {
-        width: 100% !important;
-
-        margin: 30px 0 0 0 !important;
-
-        padding: 0 !important;
-
-        float: none !important;
-
-        display: block !important;
-
-        text-align: center !important;
-    }
-
-
-    .footer-contactus ul {
-        margin: 0 !important;
-
-        padding: 0 !important;
-    }
-
-
-    .footer-contactus li {
-        margin: 12px 0 !important;
-
-        padding: 0 !important;
-
-        list-style: none !important;
-    }
-
-
-    .footer-contactus h1 {
-        font-size: 23px !important;
-
-        margin-bottom: 15px !important;
-    }
-
-
-    .footer-contactus p {
-        margin: 0 !important;
-
-        font-size: 13px !important;
-
-        line-height: 20px !important;
-    }
-
-
-    .footer-contactus h5 {
-        display: inline !important;
-
-        margin: 0 !important;
-
-        font-size: 13px !important;
-
-        line-height: 20px !important;
-    }
-}
-
-
 /* ============================================================
    MOBILE HOME IMAGE SLIDER
    ============================================================ */
 
-@media screen and (max-width: 768px) {
 
     .homeimg {
         width: 300% !important;
@@ -2750,7 +2604,7 @@ iframe{
 
     }
 
-}
+
 
 
 
@@ -2766,7 +2620,6 @@ iframe{
    MOBILE GALLERY - INFINITE HORIZONTAL CAROUSEL
    ========================================================= */
 
-@media screen and (max-width: 768px) {
 
     /* Gallery section */
     .gallery {
@@ -2801,7 +2654,7 @@ iframe{
         display: none;
     }
 
-    @media screen and (max-width: 768px) {
+
 
     /* HIDE ORIGINAL DESKTOP GALLERY COMPLETELY */
     .gallery .galrow1,
@@ -2823,7 +2676,7 @@ iframe{
         overflow: hidden;
     }
 
-}
+
 
 
     /*
@@ -3041,9 +2894,6 @@ iframe{
         background: #1a2754;
     }
 
-}
-
-
 
 
 
@@ -3058,476 +2908,708 @@ iframe{
 
 
 /* ============================================================
-   MOBILE HEADER
-   SAME DESIGN FOR HOME + ALL OTHER PAGES
+   ABOUT PAGE - MOBILE VERSION
+   ADD THIS AT THE VERY BOTTOM OF ITR_Project_CSS.css
+   Desktop styling remains unchanged.
    ============================================================ */
 
-@media screen and (max-width: 768px) {
-
     /* --------------------------------------------------------
-       MAIN HEADER
+       BASIC
        -------------------------------------------------------- */
 
-    .navbar1 {
+    html,
+    body {
         width: 100%;
-        height: 70px;
-
-        margin: 0;
-        padding: 0;
-
-        position: sticky;
-        top: 0;
-
-        z-index: 9999;
-
-        background: #bae0f8;
-
-        border-radius: 0;
-
-        box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-
-        box-sizing: border-box;
+        max-width: 100%;
+        overflow-x: hidden !important;
     }
 
-
-    /* --------------------------------------------------------
-       LOGO + COLLEGE NAME
-       -------------------------------------------------------- */
-
-    .navbar1 .top {
-        width: auto;
-        height: 70px;
-
-        float: left;
-
-        margin: 0;
-        padding: 0;
-    }
-
-
-    .navbar1 .icon {
-
-        width: 205px;
-        height: 60px;
-
-        float: left;
-
-        display: flex;
-        align-items: center;
-
-        margin: 5px 0 0 7px;
-        padding: 0 8px;
-
-        box-sizing: border-box;
-
-        background-color: #fefefe74;
-
-        border-radius: 35px;
-
-        box-shadow:
-            0.2px 0.2px 4px 0.2px rgba(0,0,0,0.3);
-    }
-
-
-    .navbar1 .logo {
-
-        width: 55px;
-        height: 55px;
-
-        padding: 3px 0 0 3px;
-
-        float: none;
-
-        display: flex;
-        align-items: center;
-
-        box-sizing: border-box;
-    }
-
-
-    .navbar1 .logo img {
-
-        width: 52px !important;
-        height: 52px !important;
-
-        object-fit: contain;
-
-        float: none;
-    }
-
-
-    .navbar1 .logo_name {
-
-        display: flex;
-        align-items: center;
-    }
-
-
-    .navbar1 .logo_name h2 {
-
-        margin: 0 0 0 5px;
-
-        padding: 0;
-
-        float: none;
-
-        display: block;
-
-        font-family: 'Times New Roman';
-
-        font-size: 13px;
-
-        line-height: 16px;
-
-        color: #1a2754;
-    }
-
-
-    /* --------------------------------------------------------
-       HAMBURGER BUTTON
-       -------------------------------------------------------- */
-
-    .navbar1 .mobile-menu-button {
-
-        position: absolute;
-
-        top: 17px;
-        right: 16px;
-
-        width: 40px;
-        height: 36px;
-
-        display: flex;
-
-        flex-direction: column;
-
-        justify-content: space-between;
-
-        padding: 6px 4px;
-
-        box-sizing: border-box;
-
-        background: transparent;
-
-        border: none;
-
-        cursor: pointer;
-
-        z-index: 10001;
-    }
-
-
-    .navbar1 .mobile-menu-button span {
-
-        display: block;
-
-        width: 100%;
-        height: 3px;
-
-        background: #1a2754;
-
-        border-radius: 5px;
-
-        transition:
-            transform 0.3s ease,
-            opacity 0.3s ease;
-    }
-
-
-    /* --------------------------------------------------------
-       HAMBURGER → X
-       -------------------------------------------------------- */
-
-    .navbar1 .mobile-menu-button.active span:nth-child(1) {
-
-        transform:
-            translateY(10px)
-            rotate(45deg);
-    }
-
-
-    .navbar1 .mobile-menu-button.active span:nth-child(2) {
-
-        opacity: 0;
-    }
-
-
-    .navbar1 .mobile-menu-button.active span:nth-child(3) {
-
-        transform:
-            translateY(-10px)
-            rotate(-45deg);
-    }
-
-
-    /* --------------------------------------------------------
-       MOBILE SLIDE MENU
-       -------------------------------------------------------- */
-
-    .navbar1 .menu {
-
-        position: fixed;
-
-        top: 0;
-        right: -80%;
-
-        width: 78%;
-        height: 100vh;
-
-        float: none;
-
-        margin: 0;
-        padding: 100px 25px 30px;
-
-        box-sizing: border-box;
-
-        background: #bae0f8;
-
-        box-shadow:
-            -5px 0 20px rgba(0,0,0,0.3);
-
-        z-index: 10000;
-
-        transition:
-            right 0.4s ease;
-
-        overflow-y: auto;
-    }
-
-
-    /* OPEN MENU */
-
-    .navbar1 .menu.active {
-
-        right: 0;
-    }
-
-
-    /* --------------------------------------------------------
-       MENU LIST
-       -------------------------------------------------------- */
-
-    .navbar1 .menu ul {
-
-        width: 100%;
-
-        float: none;
-
-        display: flex;
-
-        flex-direction: column;
-
-        align-items: stretch;
-
-        margin: 0;
-        padding: 0;
-
-        gap: 5px;
-    }
-
-
-    .navbar1 .menu ul li {
-
-        width: 100%;
-
-        list-style: none;
-
-        margin: 0;
-        padding: 0;
-
-        font-size: 15px;
-
-        text-align: center;
-    }
-
-
-    .navbar1 .menu ul li a {
-
-        display: block;
-
-        width: 100%;
-
-        padding: 16px 10px;
-
-        box-sizing: border-box;
-
-        color: #000;
-
-        font-family: Arial;
-
-        font-size: 15px;
-
-        font-weight: bold;
-
-        text-decoration: none;
-
-        border-radius: 12px;
-
-        transition:
-            background 0.25s ease,
-            color 0.25s ease;
-    }
-
-
-    .navbar1 .menu ul li a:hover {
-
-        color: #122c88;
-
-        background: rgba(255,255,255,0.45);
-    }
-
-
-    /* Remove desktop underline effect on mobile */
-
-    .navbar1 .menu ul li a::after {
-
+    .navbar1{
         display: none;
     }
 
-
-    /* --------------------------------------------------------
-       DARK/TRANSPARENT AREA BEHIND OPEN MENU
-       -------------------------------------------------------- */
-
-    .navbar1::after {
-
-        content: "";
-
-        position: fixed;
-
-        top: 0;
-        left: 0;
-
-        width: 100%;
-        height: 100vh;
-
-        background: rgba(0,0,0,0.35);
-
-        opacity: 0;
-
-        visibility: hidden;
-
-        transition:
-            opacity 0.3s ease;
-
-        z-index: 9998;
-
-        pointer-events: none;
-    }
-
-
-    .navbar1.menu-open::after {
-
-        opacity: 1;
-
-        visibility: visible;
-    }
-
-
     /* --------------------------------------------------------
        ABOUT HEADER
-       TEXT LEFT + LOGO RIGHT
        -------------------------------------------------------- */
 
     .aboutheader {
+        width: 100% !important;
+        min-height: 170px !important;
+        height: auto !important;
 
-        width: 100%;
+        margin: 0px auto 0 auto !important;
+        padding: 8px 8px !important;
 
-        min-height: 210px;
-        height: auto;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
 
-        padding: 25px 18px;
+        text-align: center !important;
 
-        box-sizing: border-box;
+        padding-top: 100px !important;
 
-        display: flex;
-
-        flex-direction: row;
-
-        align-items: center;
-
-        justify-content: space-between;
-
-        gap: 10px;
-
-        overflow: hidden;
+        box-sizing: border-box !important;
     }
 
-
-    .aboutheader-text {
-
-        width: calc(100% - 105px);
-
-        float: none;
-
-        padding: 0;
-
-        margin: 0;
-
-        box-sizing: border-box;
-
-        text-align: left;
-    }
-
-
-    .aboutheader-text h1 {
-
-        padding: 0;
-        margin: 0;
-
-        font-size: 22px;
-
-        line-height: 30px;
-
-        white-space: normal;
-
-        text-align: left;
-
-        animation: unwrapRight 2s ease forwards;
-    }
-
-
-    .aboutheader-text p {
-
-        padding: 0;
-        margin: 10px 0 0;
-
-        font-size: 12px;
-
-        line-height: 18px;
-
-        text-align: left;
-    }
-
+    /* REMOVE ABOUT HEADER LOGO */
 
     .aboutheader .headerlogo {
+        display: none !important;
+    }
 
-        width: 95px;
+    .aboutheader-text {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: center !important;
+    }
 
-        float: none;
+    .aboutheader-text h1 {
+        margin: 0 0 12px 0 !important;
+        padding: 0 !important;
+        font-size: 16px !important;
+        line-height: 25px !important;
+        text-align: center !important;
+    }
 
-        padding: 0;
+    .aboutheader-text p {
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 11.5px !important;
+        line-height: 18px !important;
+        text-align: center !important;
+    }
 
-        margin: 0;
+    /* Empty spacing below header should be small */
 
-        flex-shrink: 0;
-
-        display: flex;
-
-        align-items: center;
-
-        justify-content: center;
+    .aboutheader-space {
+        height: 15px !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
 
 
-    .aboutheader .headerlogo img {
+    /* --------------------------------------------------------
+       "KNOW US BETTER"
+       -------------------------------------------------------- */
 
-        width: 90px !important;
-        height: 90px !important;
-
-        object-fit: contain;
+    .abouthead {
+        width: 94% !important;
+        margin: 15px auto 20px auto !important;
+        padding: 0 !important;
+        text-align: center !important;
     }
+
+    .abouthead h5 {
+        margin: 0 0 5px 0 !important;
+        padding: 0 !important;
+        font-size: 11px !important;
+        line-height: 15px !important;
+        letter-spacing: 1px;
+    }
+
+    .abouthead h2 {
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 22px !important;
+        line-height: 30px !important;
+    }
+
+
+    /* --------------------------------------------------------
+       ABOUT COLLEGE SECTION
+       -------------------------------------------------------- */
+
+    .about-container {
+        width: 100% !important;
+
+        margin: 0 auto 25px auto !important;
+        padding: 10px !important;
+
+        overflow: visible !important;
+    }
+
+    .about {
+        width: 100% !important;
+
+        margin: 0 !important;
+        padding: 15px !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+
+        border-radius: 22px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    .aboutimg {
+        width: 100% !important;
+
+        margin: 0 0 15px 0 !important;
+        padding: 0 !important;
+
+        text-align: center !important;
+    }
+
+    .aboutimg img {
+        width: 100% !important;
+        max-width: 340px !important;
+
+        height: 205px !important;
+
+        object-fit: cover !important;
+
+        display: block !important;
+        margin: 0 auto !important;
+
+        border-radius: 15px !important;
+    }
+
+
+    .aboutinfo {
+        width: 100% !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        text-align: center !important;
+    }
+
+    .aboutinfo p {
+        margin: 0 !important;
+        padding: 0 !important;
+
+        font-size: 13.5px !important;
+        line-height: 19px !important;
+
+        text-align: justify !important;
+    }
+
+
+    /* --------------------------------------------------------
+       VISION + MISSION
+       -------------------------------------------------------- */
+
+    .vision-mission1 {
+        width: 100% !important;
+        height: 550px;
+
+        margin: 0px auto 0px auto !important;
+        padding: 0 !important;
+
+        overflow: visible !important;    
+        
+    
+    }
+
+    .vision-mission2 {
+        width: 80% !important;
+        height: 550px;
+
+        margin: 0 !important;
+        margin-left: 30px !important;
+        padding: 0 !important;    
+
+        display: flex !important;
+        flex-direction: column !important;
+
+        align-items: center !important;
+        gap: 18px !important;
+    }
+
+
+    .vismis {
+        width: 100% !important;
+
+        min-height: 0 !important;
+        height: 550px;
+
+        margin: 0 !important;
+        margin-bottom: 50px !important;
+        padding: 20px 17px !important;
+
+        border-radius: 20px !important;
+
+        box-sizing: border-box !important;
+
+        text-align: center !important;
+    }
+
+    .vismis h3 {
+        margin: 0 0 2px 0 !important;
+        padding: 0 !important;
+
+        font-size: 15px !important;
+        line-height: 10px !important;
+    }
+
+    .vismis p {
+        margin: 0 !important;
+        padding: 0 !important;
+
+        font-size: 12.5px !important;
+        line-height: 18px !important;
+
+        text-align: center !important;
+    }
+
+
+    
+
+
+    /* --------------------------------------------------------
+       PRINCIPAL MESSAGE
+       Same visual style as Home Page
+       -------------------------------------------------------- */
+
+    .about-page-principal,
+    .principal-desk {
+        width: 94% !important;
+
+        margin: 25px auto 30px auto !important;
+        padding: 0 !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+
+        gap: 18px !important;
+
+        overflow: visible !important;
+    }
+
+
+    .principal-desk .desk {
+        width: 100% !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        float: none !important;
+
+        border-radius: 22px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    .principal-desk .principal {
+        width: 100% !important;
+
+        margin: 0 !important;
+        padding: 20px 15px !important;
+
+        border-radius: 22px !important;
+
+        box-sizing: border-box !important;
+
+        text-align: center !important;
+    }
+
+
+    .principal-desk .principal h3 {
+        width: 100% !important;
+
+        margin: 0 0 15px 0 !important;
+        padding: 0 !important;
+
+        font-size: 22px !important;
+        line-height: 27px !important;
+
+        text-align: center !important;
+    }
+
+
+    .principal-desk .desk-img {
+        width: 100% !important;
+
+        margin: 0 0 15px 0 !important;
+        padding: 0 !important;
+
+        text-align: center !important;
+    }
+
+
+    .principal-desk .desk-img img {
+        width: 90% !important;
+        max-width: 350px !important;
+
+        height: auto !important;
+
+        margin: 0 auto !important;
+
+        display: block !important;
+
+        border-radius: 15px !important;
+    }
+
+
+    /*
+       Hide long desktop message.
+
+       Your existing mobile-text can be used if you have
+       added it to the HTML.
+    */
+
+    .principal-desk .desktext {
+        width: 100% !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        font-size: 13.5px !important;
+        line-height: 20px !important;
+
+        text-align: justify !important;
+    }
+
+
+    /* --------------------------------------------------------
+       QUICK LINKS ON ABOUT PAGE
+       Keep same mobile style as Home page
+       -------------------------------------------------------- */
+
+    .principal-desk .quicklinks {
+        width: 100% !important;
+
+        margin: 0 !important;
+
+        padding: 20px 15px !important;
+
+        float: none !important;
+
+        border-radius: 22px !important;
+
+        box-sizing: border-box !important;
+    }
+
+    .principal-desk .quick {
+        width: 100% !important;
+
+        text-align: center !important;
+    }
+
+    .principal-desk .quick h3 {
+        margin: 0 0 15px 0 !important;
+
+        font-size: 22px !important;
+        line-height: 27px !important;
+    }
+
+
+    /* --------------------------------------------------------
+       SAME ANIMATION STYLE
+       About + Vision + Mission + Principal
+       -------------------------------------------------------- */
+
+  
+    .vision-mission2 .vismis,
+    .principal-desk .desk,
+    .principal-desk .quicklinks {
+
+        animation: aboutMobileReveal 1s linear both;
+
+    }
+
+
+    @keyframes aboutMobileReveal {
+
+        from {
+            opacity: 0.5;
+
+            transform:
+                perspective(1600px)
+                rotateY(15deg)
+                rotateX(15deg)
+                translateX(50px)
+                translateY(100px)
+                scale(1);
+
+            filter: blur(4px);
+        }
+
+        20% {
+            transform:
+                perspective(2000px)
+                rotateY(-3deg)
+                scale(0.98);
+
+            filter: blur(0);
+        }
+
+        to {
+            opacity: 1;
+
+            transform:
+                perspective(2000px)
+                rotateY(0)
+                rotateX(0)
+                translateY(0)
+                scale(1);
+
+            filter: blur(0);
+        }
+    }
+
+
+    /* --------------------------------------------------------
+       IMPORTANT:
+       About header MUST NOT animate
+       -------------------------------------------------------- */
+
+    .aboutheader,
+    .aboutheader-text,
+    .abouthead {
+        animation: none !important;
+        transform: none !important;
+        filter: none !important;
+    }
+
+
+    /* --------------------------------------------------------
+       FOOTER
+       Use your existing mobile footer styling.
+       These small adjustments keep About page neat.
+       -------------------------------------------------------- */
+
+    .footer {
+        margin-top: 25px !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------CONTACT US PAGE-----------------------------------------*/
+
+.map{
+    width:94% ;
+    margin-top:100px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.map iframe{
+    width:100%;
+    height:200px;
+    display:block;
+    border-radius: 20px;
+}
+
+.contact-section{
+    width:100%;
+
+    justify-content:space-between;
+    align-items:flex-start;
+
+    gap:70px;
+}
+
+.contact-info{
+    display: flex;
+    width:100%;
+    margin-left: 20px;
+    display: block;
+}
+
+.info-box1{
+    align-items:center;
+    margin-bottom:40px;
+    margin: 30px;
+    margin-left: 5px;
 
 }
 
+.info-box2{
+    align-items:center;
+    margin-bottom:40px;
+    margin: 30px;
+    margin-left: 5px;
+}
 
+.info-box3{
+    align-items:center;
+    margin-bottom:40px;
+    margin: 40px;
+    margin-left: 5px;
+}
+
+
+.contact-icon{
+    width:40px;
+    height:40px;
+
+    background:white;
+    color:#1a2754;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:15px;
+
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.info-box1 .contact-icon{
+    margin-left: 20px;
+}
+
+
+
+
+
+.text h3{
+    margin:9px;
+    margin-top: -40px;
+    color:#1a2754;
+    font-size: 16px;
+    margin-left: -50px;
+}
+
+.text p{
+    margin-top:8px;
+    margin-left: 80px;
+    color:white;
+    line-height:18px;
+    font-size: 13px;
+    text-align: left;
+}
+
+
+
+
+/*-------------------apply form------------------*/
+
+
+.container{
+    width: 90% !important;
+    margin:auto;
+    margin-top: 100px;
+    padding-top: 0px;
+    background:#bae0f8ca;
+    border: 1px solid #d0edffca;
+    border-radius:12px;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+iframe{
+    width: 100% !important;
+}
+
+
+
+
+/*---------------------------------------footer--------------------------------------*/
+
+
+
+.footer-space{
+    display: none !important;
+}
+
+.footer{
+    width: 100% !important;
+    height: 200px !important;
+    background-color: #151f42 !important;
+    color: #fff !important;
+    padding-bottom: 50px !important;
+}
+
+.footer-space{
+    height: 20px !important;
+    background-color: #bae0f8 !important;
+
+}
+
+.footer-text{
+    width: 100% !important;
+    height: 100px !important;
+    padding-top: 10px !important;
+    text-align: center !important;
+}
+.footer-text p{
+    color: #c2c7d5 !important;
+    font-size: 12px !important;
+    letter-spacing: 1.3px !important;
+    line-height: 25px !important;
+}
+.footer-text h1{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    color: #e6f3ff !important;
+    margin-top: 0px !important;
+    font-size: 25px !important;
+    letter-spacing: 1.7px !important;
+    line-height: 30px !important;
+}
+
+.footer-quicklinks{
+    width: 95% !important;
+    text-align: center !important;
+    margin-top: 8px !important;
+    margin-left: 30px;
+    display: flex;
+}
+.footer-quicklinks a{
+    color: #c2c7d5 !important;
+    margin: 4px !important;
+    font-size: 13px !important;
+    text-decoration: none !important;
+}
+
+.icons{
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 13px !important;
+}
+
+.icons i{
+    margin: 10px !important;
+    margin-top: 10px !important;
+}
+
+.footer2{
+    width: 100% !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    height: 35px !important;
+    background-color: #98b7cf !important;
+    position: fixed !important;
+    text-align: center !important;
+    font-size: 9.5px !important;
+    line-height: 12px !important;
+    letter-spacing: 0.6px !important;
+    color: #fff !important;
+    z-index: 1000;
+}
+
+.footer2-space{
+    height: 1.5px !important;
+    background-color: rgb(194, 217, 234) !important;
+}
+
+.footer2 p{
+    margin-top: 4px !important;
+}
+
+
+
+
+}
